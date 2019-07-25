@@ -1,1 +1,0 @@
-alert('SOU O OBEDE')
