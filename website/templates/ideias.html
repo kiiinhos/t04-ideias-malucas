@@ -1,0 +1,17 @@
+{% extends 'shared/layout.html' %}
+{% block conteudo %}
+
+<h1>IDEIAS MALUCAS</h1>
+{% if pessoa is None %}
+<h1>Ops, você precisa se cadastrar</h1>
+<a href="/">clique aqui para se cadastrar</a>
+{% else %}
+<h2>Cadastre sua ideia {{pessoa.nome}}</h2>
+
+
+<form action= '/' method="POST">
+    {% csrf_token %}
+</form>
+
+{% endif %}
+{% endblock %}
