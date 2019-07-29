@@ -1,1 +1,1 @@
-web: gunicorn ideias-malucas-obekinhos.wsgi
+web: gunicorn ideias_malucas.wsgi
