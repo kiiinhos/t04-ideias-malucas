@@ -6,4 +6,5 @@ urlpatterns = [
     path('sobre', views.sobre),
     path('login',views.login),
     path('ideias',views.cadastrar_ideia),
+    path('remover_ideia/<int:id>',views.remover_ideia),
 ]
