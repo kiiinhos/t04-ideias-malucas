@@ -1,0 +1,1 @@
+web: gunicorn ideias-malucas-obekinhos.wsgi
