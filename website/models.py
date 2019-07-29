@@ -87,3 +87,6 @@ class Ideia(models.Model):
     data_de_criacao = models.DateTimeField(auto_now_add=True)
     data_de_atualizacao = models.DateTimeField(auto_now=True)
     ativo = models.BooleanField(default=True)
+
+def __str__(self):
+        return self.pessoa.nome + ' - ' + self.categorias
