@@ -1,10 +1,67 @@
-body{
-    background-color: #f1f1f1;
-    color:blue;
+body {
+  background-image: url('/static/mind.png');
+  margin: 0;
+
+}
+h1 {
+  color: black;
+  size: 16pt;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-right: 50px;
+}
+h2 {
+  color: black;
+  size: 12pt;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-right: 50px;
+}
+h4 {
+  color: rgb(83, 77, 77);
+  text-decoration: bold;
+  text-align: center;
+}
+aside {
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+aside p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-form{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+nav {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav input,
+select,
+form {
+  justify-self: center;
+  align-self: center;
+  width: 30vw;
+}
+
+section {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+}
+label {
+  text-align: center;
+  font-style: italic;
+  margin: 5px;
+}
+form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
 }
